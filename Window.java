@@ -1,5 +1,3 @@
-package ImageViewer;
-
 import java.awt.AlphaComposite;
 import java.awt.Graphics2D;
 import java.awt.GridLayout;
@@ -84,11 +82,11 @@ public class Window extends JFrame implements ComponentListener, KeyListener {
 			}
 
 			for (File imageFile : files) {
-				String text1 = imageFile.getName();
-				String text2 = imageFile.getParent();
-				String text3 = imageFile.getPath();
-				String text5 = text3.replace("/run/media/my/HITACHI/_PHOTO", "");
-				String text4 = text3.replaceAll("_PHOTO", "");
+				//String text1 = imageFile.getName();
+				//String text2 = imageFile.getParent();
+				//String text3 = imageFile.getPath();
+				//String text5 = text3.replace("/run/media/my/HITACHI/_PHOTO", "");
+				//String text4 = text3.replaceAll("_PHOTO", "");
 				imageListOutput.println(imageFile.getPath());
 			}
 
